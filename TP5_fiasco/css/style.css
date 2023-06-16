@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+vertical-align: baseline;
+color: white;
+}
+*{
+    box-sizing: border-box;
+}
+
+#contenair{
+
+width: 1440px;
+margin: auto;
+background-color: black;
+}
+
+
+
+.haut {
+height: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+header{
+ background-image: url(../img/eggs.jpg);
+ width: 100%;
+ height: 612px;
+
+}
+
+body{
+/* width: 500px; */
+
+}
+
+
+.bienvenu{
+display: flex;
+flex-direction: column;
+align-items: center;
+height:500px ;
+justify-content: center;
+}
+
+
+
+ul{
+color: white;
+    list-style-type: none;
+  
+  /* margin: 125px; */
+  display: flex;
+}
+
+.burger{
+
+ display: flex;
+ 
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  
+
+
+
+}
+.burger2{
+    margin-left: 55px;
+}
+
+.crusted{
+
+
+ display: flex;
+ 
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+  
+  
+}
+
+.crusted2{
+
+
+    margin-right: 55px;
+
+
+}
+
+
+
+
+.burger3 {
+
+  margin-left: 55px;
+   
+}
+
+.menu{
+text-align: center;
+  position: relative;
+  list-style-type: none;
+}
+
+.image1{
+    
+    display: flex;
+     
+}
+
+
+.image2{
+
+display: flex;
+  margin: 10px;
+
+    
+}
+
+
+
+.image3{
+
+
+
+    
+}
+
+
+
+.image4{
+
+
+display: flex;
+  margin: 10px;
+    
+}
+
+
+.parti3{
+justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.chef img{
+
+    width: 300px;
+
+
+}
+li{
+list-style-type: none;
+margin: 20px;
+}
+
+.bienvenu{
+
+top: 50%;
+}
+
+.parti{
+
+display: flex;
+
+
+}
+
+.egges{
+
+margin: auto;
+     display: flex;
+}
